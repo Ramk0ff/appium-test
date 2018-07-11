@@ -1,0 +1,21 @@
+{
+  "name": "appium-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "appium": "./node_modules/.bin/appium",
+    "appium-doctor": "./node_modules/.bin/appium-doctor",
+    "test": "./node_modules/.bin/wdio tests/wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "appium": "^1.8.1",
+    "appium-doctor": "^1.4.3",
+    "wdio-appium-service": "^0.2.3",
+    "wdio-jasmine-framework": "^0.3.5",
+    "wdio-spec-reporter": "^0.1.5",
+    "webdriverio": "^4.13.1"
+  }
+}
