@@ -42,7 +42,7 @@ exports.config = {
       autoGrantPermissions: true
     }],
   
-    // Where the files we are testing can be found.
+    /// Where the files we are testing can be found.
     specs: ['./tests/specs/**/*.js'],
   
     // Use the Appium plugin for Webdriver. Without this, we would need to run appium
