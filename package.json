@@ -6,7 +6,8 @@
   "scripts": {
     "appium": "./node_modules/.bin/appium",
     "appium-doctor": "./node_modules/.bin/appium-doctor",
-    "test": "./node_modules/.bin/wdio tests/wdio.conf.js"
+    "test-android": "./node_modules/.bin/wdio tests/wdio.conf.js",
+    "test-ios": "./node_modules/.bin/wdio tests/wdio.conf.js"
   },
   "author": "",
   "license": "ISC",
