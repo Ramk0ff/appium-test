@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\iprotsyk\\appium-test\\AppiumTest\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "/Users/ivanprotsyk/job/appium-test/AppiumTest/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\iprotsyk\\appium-test\\AppiumTest\\platforms\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "/Users/ivanprotsyk/job/appium-test/AppiumTest/platforms/android/app/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "4,2,3",
                         "startColumns": "4,4,4",

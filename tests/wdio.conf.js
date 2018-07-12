@@ -31,7 +31,7 @@ exports.config = {
   
       // Where to find the .apk or .ipa file to install on the device. The exact location
       // of the file may change depending on your Cordova version.
-      app: 'C:/Users/iprotsyk/appium-test/AppiumTest/platforms/android/app/build/outputs/apk/debug/app-debug.apk',
+      app: '/Users/ivanprotsyk/job/appium-test/AppiumTest/platforms/android/app/build/outputs/apk/debug/app-debug.apk',
   
       // By default, Appium runs tests in the native context. By setting autoWebview to
       // true, it runs our tests in the Cordova context.
@@ -51,7 +51,7 @@ exports.config = {
 
     appium: {
       waitStartTime: 10000,
-      command: 'appium.cmd',
+      command: 'appium',
       args: {
           address: '127.0.0.1',
           port: 4723,
